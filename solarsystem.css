@@ -1,0 +1,122 @@
+body{
+    background:black;
+}
+
+.solar-system{
+    position:relative;
+    width:400px;
+    height:400px;
+    margin:100px auto;
+}
+
+.sun{
+    width:60px;
+    height:60px;
+    background:yellow;
+    border-radius:50%;
+    position:absolute;
+    top:170px;
+    left:170px;
+}
+
+.orbit{
+    width:300px;
+    height:300px;
+    border:1px dashed white;
+    border-radius:50%;
+    position:absolute;
+    top:50px;
+    left:50px;
+
+    animation: rotate 49s linear infinite;
+}
+.earth{
+    width:30px;
+    height:30px;
+    background:blue;
+    border-radius:50%;
+    position:absolute;
+    top:-15px;
+    left:135px;
+}
+
+.jupiter{
+    width:30px;
+    height:30px;
+    background:rgb(17, 255, 0);
+    border-radius:50%;
+    position:absolute;
+    top:-15px;
+    left:300px;
+}
+
+.mercury{
+    width:30px;
+    height:30px;
+    background:blue;
+    border-radius:50%;
+    position:absolute;
+    top:-15px;
+    left:135px;
+}
+
+.mars{
+    width:30px;
+    height:30px;
+    background:blue;
+    border-radius:50%;
+    position:absolute;
+    top:-15px;
+    left:135px;
+}
+
+.Venus{
+    width:30px;
+    height:30px;
+    background:blue;
+    border-radius:50%;
+    position:absolute;
+    top:-15px;
+    left:135px;
+}
+
+.Saturn{
+    width:30px;
+    height:30px;
+    background:blue;
+    border-radius:50%;
+    position:absolute;
+    top:-15px;
+    left:135px;
+}
+
+.Uranus{
+    width:30px;
+    height:30px;
+    background:blue;
+    border-radius:50%;
+    position:absolute;
+    top:-15px;
+    left:135px;
+}
+
+
+.Neptune{
+    width:30px;
+    height:30px;
+    background:blue;
+    border-radius:50%;
+    position:absolute;
+    top:-15px;
+    left:135px;
+}
+
+
+@keyframes rotate{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
